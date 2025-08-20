@@ -1,0 +1,65 @@
+/* ---------- Reset básico ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* ---------- Encabezado y navegación ---------- */
+header {
+  background-color: #003366;
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ffcc00; /* efecto hover */
+}
+
+/* ---------- Contenido ---------- */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #0059b3;
+  color: #ffffff;
+  margin-top: 30px;
+  border-top: 4px solid #003366;
+}
